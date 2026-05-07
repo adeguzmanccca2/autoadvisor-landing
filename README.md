@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AutoAdvisor Agent — Marketing Site
 
 Next.js 14 (App Router) landing page for [autoadvisoragent.com](https://autoadvisoragent.com).
@@ -28,3 +29,6 @@ Open http://localhost:3000.
 ## Logo
 
 Drop a `logo.png` into `/public`. The Navbar/Footer fall back to the wordmark if the file is missing.
+=======
+# autoadvisor-landing
+>>>>>>> b9c8668b5c883aa9ddaa520cdab2910f82bbce3e
