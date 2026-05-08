@@ -11,8 +11,8 @@ type Props = {
 
 export default function Logo({
   className = "",
-  width = 180,
-  height = 60,
+  width = 140,
+  height = 48,
 }: Props) {
   const [errored, setErrored] = useState(false);
 
@@ -34,7 +34,7 @@ export default function Logo({
       height={height}
       priority
       onError={() => setErrored(true)}
-      className={`h-10 w-auto object-contain ${className}`}
+      className={`h-12 w-auto object-contain ${className}`}
     />
   );
 }
