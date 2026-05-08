@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+
 function ChartIcon() {
   return (
     <svg
@@ -18,6 +19,7 @@ function ChartIcon() {
     </svg>
   );
 }
+
 function RobotIcon() {
   return (
     <svg
@@ -39,6 +41,7 @@ function RobotIcon() {
     </svg>
   );
 }
+
 export default function Products() {
   return (
     <section id="products" className="bg-white py-20 sm:py-24">
@@ -51,6 +54,7 @@ export default function Products() {
             Built to work together — capture every lead, prove every dollar.
           </p>
         </Reveal>
+
         <div className="mt-14 grid gap-8 md:grid-cols-2">
           <Reveal>
             <article className="group h-full rounded-2xl border-2 border-brand bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1.5 hover:shadow-xl">
@@ -64,7 +68,7 @@ export default function Products() {
                 Match leads to sales by VIN, stock number, phone, and email.
                 Know exactly which vendors drive revenue and which ones don&apos;t.
               </p>
-              
+              <a
                 href="https://roi.autoadvisoragent.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -74,6 +78,7 @@ export default function Products() {
               </a>
             </article>
           </Reveal>
+
           <Reveal delayMs={120}>
             <article className="group h-full rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-brand hover:shadow-xl">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand">
@@ -87,7 +92,7 @@ export default function Products() {
                 Automatically engage leads, answer questions, and guide buyers
                 from first click to final sale.
               </p>
-              
+              <a
                 href="https://ai.autoadvisoragent.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -96,4 +101,9 @@ export default function Products() {
                 Launch AI Agent <span aria-hidden="true" className="ml-1">→</span>
               </a>
             </article>
-          </R
+          </Reveal>
+        </div>
+      </div>
+    </section>
+  );
+}
